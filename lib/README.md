@@ -6,6 +6,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/vrx-markdown?color=orange)](https://npm.chart.dev/vrx-markdown)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/vrx-markdown?color=orange)](https://bundlephobia.com/package/vrx-markdown)
 [![install size](https://badgen.net/packagephobia/install/vrx-markdown?color=orange)](https://packagephobia.com/result?p=vrx-markdown)
+[![license](https://img.shields.io/github/license/vrx-vue/markdown?color=orange)](https://github.com/vrx-vue/markdown/blob/true/LICENSE)
 
 <!-- /automd -->
 
