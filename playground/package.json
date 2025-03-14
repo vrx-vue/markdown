@@ -1,6 +1,6 @@
 {
   "name": "@vrx-markdown/playground",
-  "version": "1.10.1",
+  "version": "0.0.1-beta.1",
   "private": true,
   "type": "module",
   "scripts": {
