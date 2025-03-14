@@ -2,8 +2,24 @@
   "name": "vrx-markdown",
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "whitekite",
+    "email": "1075790909@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrx-vue/markdown.git",
+    "directory": "lib"
+  },
+  "keywords": [
+    "markdown",
+    "remark",
+    "rehype",
+    "vue",
+    "vue3"
+  ],
   "scripts": {
-    "build": "vrx-cp build"
+    "build": "automd && vrx-cp build"
   },
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
