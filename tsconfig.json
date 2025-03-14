@@ -1,0 +1,11 @@
+{
+  "extends": "@vill-v/tsconfig/base.json",
+  "compilerOptions": {
+    "types": ["vue-macros/macros-global"]
+  },
+  "vueCompilerOptions": {
+    "plugins": ["vue-macros/volar"]
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.vue"],
+  "exclude": ["node_modules"]
+}

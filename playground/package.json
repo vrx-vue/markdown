@@ -1,0 +1,23 @@
+{
+  "name": "@vrx-markdown/playground",
+  "version": "1.10.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "playground:dev": "vite",
+    "playground:build": "vite build",
+    "playground:preview": "vite preview"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "rehype-highlight": "^7.0.2",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.1",
+    "vrx-markdown": "workspace:*",
+    "vue": "catalog:"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.1"
+  }
+}
