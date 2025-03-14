@@ -121,7 +121,7 @@ export const createUnified = (options: IProps, attrs: Record<string, unknown>): 
   const render: Jsx = (tag, props, key) => {
     const component = options.components?.[tag as string]
     if (!component) return jsx(tag, props, key)
-    if (typeof component === 'function') return component(tag, props, key)
+    if (typeof component === 'function') return component(props, key)
     if (typeof component === 'string') return jsx(component, props, key)
     return jsx(tag, props, key)
   }
