@@ -14,8 +14,8 @@
 
   let timer: any
   const components: Components = {
-    code: (tag, props, key) => {
-      return jsx(tag, props, key)
+    code: (props, key) => {
+      return jsx('code', props, key)
     },
   }
 
